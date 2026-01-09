@@ -120,6 +120,7 @@
 - Prompt cho style âm nhạc được viết dưới dạng ngôn ngữ tự nhiên lai với ngôn ngữ hướng miền của âm nhạc
 
 ## Step 2: Create a high level design
+<img width="539" height="652" alt="image" src="https://github.com/user-attachments/assets/9f4c202a-7ab0-49a3-9969-c6c481c7eb4a" />
 
 ## Step 3 : Design core components
 
@@ -171,6 +172,7 @@ _Mục đích_: CHo phép nghe nhạc liên tục, không gián đoạn, Khả n
 - Client bắt đầu stream qua CDN. Với nhạc public được nghe lại nhiều, lưu sẵn vào CDN, thời gian tồn tại lâu hơn
 
 ## Step 4: Scale the design
+<img width="642" height="691" alt="image" src="https://github.com/user-attachments/assets/2c17f817-4d2a-4dcf-abf8-0d240a37778d" />
 
 - Sử dụng các load balancer để cân bằng tải không bị quá tải khi có lượng lớn người dùng
 - Chia ra thành các service để sử lý tập trung nhiệm vụ không dồn vào 1 service gây quá tải, khó bảo trì
